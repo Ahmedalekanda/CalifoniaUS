@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Successfully verify search result",
+        "description": "",
+        "id": "home-page;successfully-verify-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10459714800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefiniHomePageCA.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151372100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Shirts in search box",
+            "match": {
+              "location": "StepDefiniHomePageCA.enter_Shirts_in_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1773348500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Search Icon",
+            "match": {
+              "location": "StepDefiniHomePageCA.click_on_Search_Icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24321872100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search for specific product",
+            "match": {
+              "location": "StepDefiniHomePageCA.search_for_specific_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 260794100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify Specific product displayed",
+            "match": {
+              "location": "StepDefiniHomePageCA.verify_Specific_product_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99077000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "selected item add to cart",
+            "match": {
+              "location": "StepDefiniHomePageCA.selected_item_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2653424600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "move forward to next step",
+            "match": {
+              "location": "StepDefiniHomePageCA.move_forward_to_next_step()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52648300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer verifies his shopping cart summary",
+            "match": {
+              "location": "StepDefiniHomePageCA.customer_verifies_his_shopping_cart_summary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2529413700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "proceed to check out",
+            "match": {
+              "location": "StepDefiniHomePageCA.proceed_to_check_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@TC"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "Homeepage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User can successfully login and check order history",
+        "description": "",
+        "id": "loggin;user-can-successfully-login-and-check-order-history",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5486923000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefiniHomePageCA.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1980535200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Signin Button",
+            "match": {
+              "location": "StepDefiniLoginPageCA.click_on_Signin_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2079499800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Password and Click Signin Icon",
+            "match": {
+              "location": "StepDefiniLoginPageCA.enter_User_Email_Password_and_Click_Signin_Icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88531600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User in the Profile Page",
+            "match": {
+              "location": "StepDefiniLoginPageCA.verify_User_in_the_Profile_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4032021200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check user in order details Page",
+            "match": {
+              "location": "StepDefiniLoginPageCA.check_user_in_order_details_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61583600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Finally Verify user successfully enters order history page",
+            "match": {
+              "location": "StepDefiniLoginPageCA.finally_Verify_user_successfully_enters_order_history_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TC"
+          }
+        ]
+      }
+    ],
+    "name": "Loggin",
+    "description": "",
+    "id": "loggin",
+    "keyword": "Feature",
+    "uri": "LogginnPagee.feature"
+  }
+]
